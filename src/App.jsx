@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUpRight, ArrowDown } from 'lucide-react';
+import profilePic from './assets/profile.jpg';
 import './App.css';
 
 function App() {
@@ -87,7 +88,9 @@ END:VCARD`;
           </div>
 
           <div className="body-right reveal delay-3">
-            <div className="visual-container"></div>
+            <div className="visual-container">
+              <img src={profilePic} alt="Vaishnavi Devi" className="profile-img" />
+            </div>
           </div>
         </div>
 
